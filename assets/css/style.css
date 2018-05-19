@@ -1,0 +1,65 @@
+body {
+margin: 0;
+background-image: url("../../assets/images/triangles-background.jpg"); 
+}
+
+.box {
+height: 1000px;
+width: 1000px;
+position: relative;
+left: 170px;
+margin-top: 65px;
+}
+
+.yellow {
+background: rgb(51, 255, 0);
+}
+
+#gameHeader {
+padding-top: 40px;
+text-align: center;
+font-size: 80px;
+color: rgb(38, 0, 255);
+font-weight: bold;
+font-family: 'Exo 2', sans-serif;
+}
+
+#start {
+position: absolute;
+left: 420px;
+bottom: 800px;
+font-family: 'Exo 2', sans-serif;
+}
+
+#submit {
+position: absolute;
+bottom: 100px;
+left: 420px;
+font-family: 'Exo 2', sans-serif;
+}
+
+#correct {
+font-weight: bold;
+font-size: 15px;
+font-family: 'Exo 2', sans-serif;
+color: rgb(38, 0, 255);
+}
+
+#wrong {
+font-weight: bold;
+font-size: 15px;
+font-family: 'Exo 2', sans-serif;
+color: rgb(38, 0, 255);
+}
+
+h2 {
+font-size: 10px;
+font-family: 'Exo 2', sans-serif;
+}
+
+#timer {
+font-weight: bold;
+font-size: 25px;
+font-family: 'Exo 2', sans-serif;
+color: rgb(38, 0, 255);
+}
