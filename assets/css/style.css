@@ -63,3 +63,17 @@ font-size: 25px;
 font-family: 'Exo 2', sans-serif;
 color: rgb(38, 0, 255);
 }
+
+.question-text {
+font-weight: bold;
+font-size: 25px;
+font-family: 'Exo 2', sans-serif;
+color: rgb(38, 0, 255);
+}
+
+.answer-text {
+font-weight: bold;
+font-size: 18px;
+font-family: 'Exo 2', sans-serif;
+color: white;
+}

@@ -54,12 +54,14 @@ function addQuestion(question) {
  var div = $("<div>");
  div.addClass("my-5");
  var form = $("<form>");
- var questionText = $("<h2>").text(question.question);
+ var questionText = $("<h2>").text("Question: " + question.question);
+ $(questionText).addClass("question-text");
  div.append(questionText);
  div.append(form);
  for (answer of question.possibleAnswers) {
  var radio = $(`<input type ="radio" name = "${question.answer}" value="${answer}" />`);
  var text = $("<span>").text(" " + answer + " ");
+ $(text).addClass("answer-text");
  form.append(radio);
  form.append(text);
  }
