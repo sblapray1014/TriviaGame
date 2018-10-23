@@ -118,7 +118,7 @@ $("#submit").on("click", function(event) {
   Nice work! Here are your results!
   Correct: ${correct}
   Wrong: ${wrong}`);
-  window.location.replace("https://sblapray1014.github.io/TriviaGame/");
+  window.location.href = "https://sblapray1014.github.io/TriviaGame/";
   //   $("#correct").text("Correct: " + correct);
   //   $("#wrong").text("Wrong: " + wrong);
   stopTimer();
